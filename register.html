@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration Page</title>
+</head>
+
+<body>
+
+<center>
+
+<h2>Create New Account</h2>
+
+<form action="login.html">
+
+<table cellpadding="8">
+
+<tr>
+<td>Name:</td>
+<td>
+<input type="text"
+pattern="[A-Za-z][A-Za-z ]*"
+title="Name must start with a letter and contain only alphabets"
+required>
+</td>
+</tr>
+
+<tr>
+<td>Email ID:</td>
+<td>
+<input type="email"
+pattern="[A-Za-z]{3,}[A-Za-z0-9._%+-]*@[A-Za-z0-9.-]+\.[A-Za-z]{2,}"
+title="Email must start with at least 3 letters (example: nisha@gmail.com)"
+required>
+</td>
+</tr>
+
+<tr>
+<td>Phone Number:</td>
+<td>
+<input type="tel"
+pattern="[0-9]{10}"
+title="Please enter exactly 10 digits"
+required>
+</td>
+</tr>
+
+<tr>
+<td>Password:</td>
+<td>
+<input type="password"
+pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9]).*"
+title="Password must contain at least one uppercase letter, one lowercase letter, and one number"
+required>
+</td>
+</tr>
+
+<tr>
+<td>Confirm Password:</td>
+<td>
+<input type="password"
+pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9]).*"
+title="Password must contain at least one uppercase letter, one lowercase letter, and one number"
+required>
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td>
+<input type="submit" value="Register">
+</td>
+</tr>
+
+</table>
+
+</form>
+
+<br>
+
+<p>I already have an account? <a href="login.html">Login</a></p>
+
+</center>
+
+</body>
+</html>
