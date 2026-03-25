@@ -1,0 +1,21 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #667eea, #764ba2);
+}
+
+.card {
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.btn {
+    transition: 0.3s;
+}
+
+.btn:hover {
+    opacity: 0.85;
+}
